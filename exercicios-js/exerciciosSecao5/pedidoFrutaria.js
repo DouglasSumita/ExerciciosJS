@@ -23,10 +23,10 @@ function pedidoFrutaria(fruta) {
             mensagem = 'Erro no console'    
     }
 
-    return console.log(mensagem)
+    console.log(mensagem)
 }
 
 pedidoFrutaria('maçã')
 pedidoFrutaria('kiwi')
 pedidoFrutaria('melancia')
-pedidoFrutaria()
+pedidoFrutaria('')
